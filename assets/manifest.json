@@ -1,0 +1,62 @@
+[
+  {
+    "path": "assets/audio/afternoon.res",
+    "sha256": "827f819a1179c32754430c969a85fcb6cd312e6e66073bd0de23cbfe7c9a0f25",
+    "bytes": 5679338
+  },
+  {
+    "path": "assets/audio/bump.ogg",
+    "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710",
+    "bytes": 4848
+  },
+  {
+    "path": "assets/audio/cut.ogg",
+    "sha256": "e3e7fc7ccd9c5cfdf77bffa05aee10d4973812076c76dc889ba2b16ea434127f",
+    "bytes": 4880
+  },
+  {
+    "path": "assets/audio/fit.ogg",
+    "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a",
+    "bytes": 8968
+  },
+  {
+    "path": "assets/audio/perfect.ogg",
+    "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c",
+    "bytes": 14169
+  },
+  {
+    "path": "assets/audio/restore.ogg",
+    "sha256": "75d87dc60b7d29df838530af8c9e28205102234e07b5f1e849aa3d95c3922bd0",
+    "bytes": 6270
+  },
+  {
+    "path": "assets/cats/cat_atlas.png",
+    "sha256": "62b581a4c171d0e60893197c74f9f8496f520242b4ac2c89f89683e9928afebf",
+    "bytes": 1997392
+  },
+  {
+    "path": "assets/fonts/Nunito.ttf",
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "bytes": 276932
+  },
+  {
+    "path": "assets/fonts/OFL.txt",
+    "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+    "bytes": 4385
+  },
+  {
+    "path": "assets/ui/cozy_room.png",
+    "sha256": "293e26e2509b594ee1a3b860f861c8c1dd0b515b594f6e24b0718e308fd8b9f2",
+    "bytes": 2143201
+  },
+  {
+    "path": "assets/audio/licenses/kenney-interface.txt",
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+    "bytes": 574
+  },
+  {
+    "path": "assets/audio/licenses/kenney-ui.txt",
+    "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+    "bytes": 479
+  }
+]

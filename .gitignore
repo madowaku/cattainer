@@ -1,0 +1,7 @@
+.godot/
+build/
+*.tmp
+tools/__pycache__/
+tools/cache/
+docs/qa/*.log
+docs/qa/*.import

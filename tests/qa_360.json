@@ -1,0 +1,29 @@
+{
+  "scene_path": "tests/qa_scene.tscn",
+  "viewport_size": {"width": 360, "height": 800},
+  "settle_frames": 5,
+  "steps": [
+    {"type":"ui_report", "path":"res://docs/qa/layout_360.json", "fail_on":["any"]},
+    {"type":"screenshot", "path":"res://docs/qa/normal_360.png"},
+    {"type":"mouse_button", "button_index":1, "position":{"x":88,"y":400}, "pressed":true},
+    {"type":"mouse_button", "button_index":1, "position":{"x":88,"y":400}, "pressed":false},
+    {"type":"assert", "assertion":"property", "node_path":"Game", "property":"board:mask", "expected":127},
+    {"type":"mouse_button", "button_index":1, "position":{"x":52,"y":626}, "pressed":true},
+    {"type":"mouse_button", "button_index":1, "position":{"x":52,"y":626}, "pressed":false},
+    {"type":"assert", "assertion":"property", "node_path":"Game", "property":"board:mask", "expected":383},
+    {"type":"mouse_button", "button_index":1, "position":{"x":297,"y":626}, "pressed":true},
+    {"type":"mouse_button", "button_index":1, "position":{"x":297,"y":626}, "pressed":false},
+    {"type":"assert", "assertion":"property", "node_path":"Game", "property":"board:mask", "expected":65535},
+    {"type":"set_property", "node_path":".", "property":"mask", "value":383},
+    {"type":"mouse_button", "button_index":1, "position":{"x":176,"y":626}, "pressed":true},
+    {"type":"mouse_button", "button_index":1, "position":{"x":176,"y":626}, "pressed":false},
+    {"type":"wait_seconds", "seconds":0.25},
+    {"type":"assert", "assertion":"property", "node_path":"Game", "property":"busy", "expected":true},
+    {"type":"screenshot", "path":"res://docs/qa/test_360.png"},
+    {"type":"wait_until", "node_path":"Game", "property":"busy", "expected":false, "timeout_seconds":5},
+    {"type":"wait_seconds", "seconds":0.3},
+    {"type":"assert", "assertion":"property", "node_path":"Game", "property":"last_rank", "expected":"PERFECT"},
+    {"type":"ui_report", "path":"res://docs/qa/result_layout_360.json", "fail_on":["any"]},
+    {"type":"screenshot", "path":"res://docs/qa/perfect_360.png"}
+  ]
+}

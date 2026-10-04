@@ -1,0 +1,9 @@
+{
+  "scene_path": "tests/qa_scene.tscn",
+  "viewport_size": {"width": 720, "height": 1280},
+  "settle_frames": 5,
+  "steps": [
+    {"type":"ui_report", "path":"res://docs/qa/layout_720.json", "fail_on":["any"]},
+    {"type":"screenshot", "path":"res://docs/qa/normal_720.png"}
+  ]
+}

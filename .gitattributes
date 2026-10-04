@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Preserve supplied documents and original license files byte-for-byte.
+assets/audio/licenses/*.txt -text -whitespace
+assets/fonts/OFL.txt -text -whitespace
+docs/CATTAINER_IMPLEMENTATION_TASK_v0.1.md -text -whitespace

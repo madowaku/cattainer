@@ -1,0 +1,950 @@
+{
+  "controls": [
+    {
+      "class": "Control",
+      "path": "Game",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ]
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Room",
+      "rect": [
+        0,
+        -40,
+        360,
+        840
+      ]
+    },
+    {
+      "class": "CenterContainer",
+      "path": "Game/Layout",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page",
+      "rect": [
+        16,
+        26,
+        328,
+        747
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Header",
+      "rect": [
+        16,
+        26,
+        328,
+        104
+      ]
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Header/@HBoxContainer@2",
+      "rect": [
+        16,
+        26,
+        328,
+        36
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Header/@HBoxContainer@2/@Button@3",
+      "rect": [
+        16,
+        26,
+        40,
+        36
+      ],
+      "text": "⚙"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Header/@HBoxContainer@2/@Label@4",
+      "rect": [
+        64,
+        36,
+        238,
+        15
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Header/@HBoxContainer@2/@Button@5",
+      "rect": [
+        310,
+        26,
+        34,
+        36
+      ],
+      "text": "?"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Header/@Label@6",
+      "rect": [
+        16,
+        68,
+        328,
+        62
+      ],
+      "text": "CATTAINER"
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Navigation",
+      "rect": [
+        16,
+        138,
+        328,
+        36
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Navigation/@Button@7",
+      "rect": [
+        37,
+        138,
+        34,
+        36
+      ],
+      "text": "‹"
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Navigation/@Button@8",
+      "rect": [
+        79,
+        138,
+        202,
+        36
+      ],
+      "text": "STAGE 010  /  010"
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Navigation/@Button@9",
+      "rect": [
+        289,
+        138,
+        34,
+        36
+      ],
+      "text": "›"
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper",
+      "rect": [
+        16,
+        182,
+        328,
+        568
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle",
+      "rect": [
+        26,
+        190,
+        308,
+        552
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/@Label@10",
+      "rect": [
+        26,
+        190,
+        308,
+        26
+      ],
+      "text": "Make the smallest box for every cat."
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Meta",
+      "rect": [
+        26,
+        222,
+        308,
+        16
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Meta/@Label@11",
+      "rect": [
+        26,
+        222,
+        266,
+        16
+      ],
+      "text": "PERFECT · 8 cells"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Meta/@Label@12",
+      "rect": [
+        300,
+        222,
+        34,
+        16
+      ],
+      "text": "8 cells"
+    },
+    {
+      "class": "CenterContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot",
+      "rect": [
+        26,
+        244,
+        308,
+        264
+      ]
+    },
+    {
+      "class": "Control",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board",
+      "rect": [
+        48,
+        244,
+        264,
+        264
+      ]
+    },
+    {
+      "class": "MarginContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner",
+      "rect": [
+        48,
+        244,
+        264,
+        264
+      ]
+    },
+    {
+      "class": "GridContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid",
+      "rect": [
+        57,
+        253,
+        246,
+        246
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell00",
+      "rect": [
+        57,
+        253,
+        62,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell01",
+      "rect": [
+        119,
+        253,
+        62,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell02",
+      "rect": [
+        181,
+        253,
+        61,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell03",
+      "rect": [
+        242,
+        253,
+        61,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell04",
+      "rect": [
+        57,
+        315,
+        62,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell05",
+      "rect": [
+        119,
+        315,
+        62,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell06",
+      "rect": [
+        181,
+        315,
+        61,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell07",
+      "rect": [
+        242,
+        315,
+        61,
+        62
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell08",
+      "rect": [
+        57,
+        377,
+        62,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell09",
+      "rect": [
+        119,
+        377,
+        62,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell10",
+      "rect": [
+        181,
+        377,
+        61,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell11",
+      "rect": [
+        242,
+        377,
+        61,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell12",
+      "rect": [
+        57,
+        438,
+        62,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell13",
+      "rect": [
+        119,
+        438,
+        62,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell14",
+      "rect": [
+        181,
+        438,
+        61,
+        61
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/Inner/Grid/Cell15",
+      "rect": [
+        242,
+        438,
+        61,
+        61
+      ]
+    },
+    {
+      "class": "Panel",
+      "path": "Game/Layout/Page/Paper/Puzzle/BoardSlot/Board/CatPlacement",
+      "rect": [
+        48,
+        244,
+        264,
+        264
+      ]
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats",
+      "rect": [
+        26,
+        514,
+        308,
+        82
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LOAF",
+      "rect": [
+        26,
+        514,
+        73,
+        82
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LOAF/@VBoxContainer@32",
+      "rect": [
+        36,
+        522,
+        53,
+        66
+      ]
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LOAF/@VBoxContainer@32/@TextureRect@33",
+      "rect": [
+        36,
+        522,
+        53,
+        37
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LOAF/@VBoxContainer@32/@Label@34",
+      "rect": [
+        36,
+        560,
+        53,
+        15
+      ],
+      "text": "LOAF ✓"
+    },
+    {
+      "class": "Control",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LOAF/@VBoxContainer@32/@Control@35",
+      "rect": [
+        36,
+        576,
+        53,
+        12
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LONG",
+      "rect": [
+        104,
+        514,
+        73,
+        82
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LONG/@VBoxContainer@36",
+      "rect": [
+        114,
+        522,
+        53,
+        66
+      ]
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LONG/@VBoxContainer@36/@TextureRect@37",
+      "rect": [
+        114,
+        522,
+        53,
+        37
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LONG/@VBoxContainer@36/@Label@38",
+      "rect": [
+        114,
+        560,
+        53,
+        15
+      ],
+      "text": "LONG ✓"
+    },
+    {
+      "class": "Control",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/LONG/@VBoxContainer@36/@Control@39",
+      "rect": [
+        114,
+        576,
+        53,
+        12
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/SPLOOT",
+      "rect": [
+        182,
+        514,
+        73,
+        82
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/SPLOOT/@VBoxContainer@40",
+      "rect": [
+        192,
+        522,
+        53,
+        66
+      ]
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/SPLOOT/@VBoxContainer@40/@TextureRect@41",
+      "rect": [
+        192,
+        522,
+        53,
+        37
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/SPLOOT/@VBoxContainer@40/@Label@42",
+      "rect": [
+        192,
+        560,
+        53,
+        15
+      ],
+      "text": "SPLOOT ✓"
+    },
+    {
+      "class": "Control",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/SPLOOT/@VBoxContainer@40/@Control@43",
+      "rect": [
+        192,
+        576,
+        53,
+        12
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/CURL",
+      "rect": [
+        260,
+        514,
+        74,
+        82
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/CURL/@VBoxContainer@44",
+      "rect": [
+        270,
+        522,
+        54,
+        66
+      ]
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/CURL/@VBoxContainer@44/@TextureRect@45",
+      "rect": [
+        270,
+        522,
+        54,
+        37
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/CURL/@VBoxContainer@44/@Label@46",
+      "rect": [
+        270,
+        560,
+        54,
+        15
+      ],
+      "text": "CURL ✓"
+    },
+    {
+      "class": "Control",
+      "path": "Game/Layout/Page/Paper/Puzzle/Cats/CURL/@VBoxContainer@44/@Control@47",
+      "rect": [
+        270,
+        576,
+        54,
+        12
+      ]
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Controls",
+      "rect": [
+        26,
+        602,
+        308,
+        49
+      ]
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/Controls/Undo",
+      "rect": [
+        26,
+        602,
+        71,
+        49
+      ],
+      "text": "↶ UNDO"
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/Controls/Test",
+      "rect": [
+        103,
+        602,
+        153,
+        49
+      ],
+      "text": "▶ TEST"
+    },
+    {
+      "class": "Button",
+      "path": "Game/Layout/Page/Paper/Puzzle/Controls/Reset",
+      "rect": [
+        262,
+        602,
+        72,
+        49
+      ],
+      "text": "⟳ RESET"
+    },
+    {
+      "class": "HBoxContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks",
+      "rect": [
+        26,
+        657,
+        308,
+        51
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@13",
+      "rect": [
+        26,
+        657,
+        100,
+        51
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@13/@Label@14",
+      "rect": [
+        36,
+        665,
+        80,
+        35
+      ],
+      "text": "CLEAR ≤ 12 cells"
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@15",
+      "rect": [
+        130,
+        657,
+        100,
+        51
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@15/@Label@16",
+      "rect": [
+        140,
+        665,
+        80,
+        35
+      ],
+      "text": "GREAT ≤ 10 cells"
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@17",
+      "rect": [
+        234,
+        657,
+        100,
+        51
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Ranks/@PanelContainer@17/@Label@18",
+      "rect": [
+        244,
+        665,
+        80,
+        35
+      ],
+      "text": "PERFECT ≤ 8 cells"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/Paper/Puzzle/Hint",
+      "rect": [
+        26,
+        714,
+        308,
+        28
+      ],
+      "text": "Every cat fits. Your tiny box is ready!"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Layout/Page/@Label@19",
+      "rect": [
+        16,
+        758,
+        328,
+        15
+      ],
+      "text": "BEST · PERFECT / 8 cells"
+    },
+    {
+      "class": "Control",
+      "path": "Game/PaperScraps",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ],
+      "top_level": true
+    },
+    {
+      "class": "Control",
+      "path": "Game/Overlay",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ],
+      "top_level": true
+    },
+    {
+      "class": "ColorRect",
+      "path": "Game/Overlay/Dim",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ]
+    },
+    {
+      "class": "CenterContainer",
+      "path": "Game/Overlay/Center",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ]
+    },
+    {
+      "class": "PanelContainer",
+      "path": "Game/Overlay/Center/Paper",
+      "rect": [
+        34,
+        181,
+        292,
+        438
+      ]
+    },
+    {
+      "class": "MarginContainer",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27",
+      "rect": [
+        44,
+        189,
+        272,
+        422
+      ]
+    },
+    {
+      "class": "VBoxContainer",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content",
+      "rect": [
+        60,
+        205,
+        240,
+        390
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/@Label@48",
+      "rect": [
+        60,
+        205,
+        240,
+        20
+      ],
+      "text": "ALL CATS FIT!"
+    },
+    {
+      "class": "TextureRect",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/@TextureRect@49",
+      "rect": [
+        60,
+        237,
+        240,
+        80
+      ]
+    },
+    {
+      "class": "Label",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/@Label@50",
+      "rect": [
+        60,
+        329,
+        240,
+        47
+      ],
+      "text": "PERFECT!"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/@Label@51",
+      "rect": [
+        60,
+        388,
+        240,
+        19
+      ],
+      "text": "8 cells · one happy little box"
+    },
+    {
+      "class": "Label",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/@Label@52",
+      "rect": [
+        60,
+        419,
+        240,
+        72
+      ],
+      "text": "10 / 10 COMPLETE Every cat has a place to call home."
+    },
+    {
+      "class": "Button",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/Next",
+      "rect": [
+        60,
+        503,
+        240,
+        40
+      ],
+      "text": "ALL STAGES  ›"
+    },
+    {
+      "class": "Button",
+      "path": "Game/Overlay/Center/Paper/@MarginContainer@27/Content/Retry",
+      "rect": [
+        60,
+        555,
+        240,
+        40
+      ],
+      "text": "KEEP TRIMMING"
+    },
+    {
+      "class": "Control",
+      "path": "Game/Overlay/Celebration",
+      "rect": [
+        0,
+        0,
+        360,
+        800
+      ],
+      "top_level": true
+    }
+  ],
+  "counts": {
+    "controls": 90,
+    "findings": 0,
+    "hidden": 0,
+    "visible": 90
+  },
+  "file": "C:/Dev/Projects/cattainer/docs/qa/result_layout_360.json",
+  "findings": [],
+  "label": "steps[20]",
+  "node_path": ".",
+  "passed": true,
+  "rect_format": "[x, y, width, height]",
+  "viewport": {
+    "height": 800,
+    "width": 360
+  }
+}

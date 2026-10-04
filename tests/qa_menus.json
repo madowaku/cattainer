@@ -1,0 +1,25 @@
+{
+  "scene_path": "tests/qa_scene.tscn",
+  "viewport_size": {"width":360,"height":800},
+  "settle_frames":5,
+  "steps":[
+    {"type":"mouse_button","button_index":1,"position":{"x":326,"y":44},"pressed":true},
+    {"type":"mouse_button","button_index":1,"position":{"x":326,"y":44},"pressed":false},
+    {"type":"assert","assertion":"property","node_path":"Game/Overlay","property":"visible","expected":true},
+    {"type":"ui_report","label":"help","path":"res://docs/qa/help_layout.json","fail_on":["any"]},
+    {"type":"screenshot","path":"res://docs/qa/help_360.png"},
+    {"type":"key","keycode":4194305,"pressed":true},
+    {"type":"key","keycode":4194305,"pressed":false},
+    {"type":"assert","assertion":"property","node_path":"Game/Overlay","property":"visible","expected":false},
+    {"type":"mouse_button","button_index":1,"position":{"x":36,"y":44},"pressed":true},
+    {"type":"mouse_button","button_index":1,"position":{"x":36,"y":44},"pressed":false},
+    {"type":"ui_report","label":"settings","path":"res://docs/qa/settings_layout.json","fail_on":["any"]},
+    {"type":"screenshot","path":"res://docs/qa/settings_360.png"},
+    {"type":"key","keycode":4194305,"pressed":true},
+    {"type":"key","keycode":4194305,"pressed":false},
+    {"type":"mouse_button","button_index":1,"position":{"x":180,"y":156},"pressed":true},
+    {"type":"mouse_button","button_index":1,"position":{"x":180,"y":156},"pressed":false},
+    {"type":"ui_report","label":"stages","path":"res://docs/qa/stages_layout.json","fail_on":["any"]},
+    {"type":"screenshot","path":"res://docs/qa/stages_360.png"}
+  ]
+}

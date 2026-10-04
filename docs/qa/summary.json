@@ -1,0 +1,54 @@
+{
+  "gameplay": {
+    "passed": 342,
+    "failed": 0
+  },
+  "release_smoke": {
+    "cats": 4,
+    "cells": 8,
+    "engine": "4.7-stable (official)",
+    "music_playing": true,
+    "passed": true,
+    "rank": "PERFECT",
+    "stage": 10,
+    "unlocked": 10
+  },
+  "layouts": {
+    "layout_360.json": {
+      "controls": 75,
+      "findings": 0,
+      "hidden": 8,
+      "visible": 75
+    },
+    "layout_720.json": {
+      "controls": 75,
+      "findings": 0,
+      "hidden": 8,
+      "visible": 75
+    },
+    "result_layout_360.json": {
+      "controls": 90,
+      "findings": 0,
+      "hidden": 0,
+      "visible": 90
+    },
+    "help_layout.json": {
+      "controls": 86,
+      "findings": 0,
+      "hidden": 2,
+      "visible": 86
+    },
+    "settings_layout.json": {
+      "controls": 87,
+      "findings": 0,
+      "hidden": 2,
+      "visible": 87
+    },
+    "stages_layout.json": {
+      "controls": 95,
+      "findings": 0,
+      "hidden": 2,
+      "visible": 95
+    }
+  }
+}

@@ -1,0 +1,1374 @@
+{
+	"checks": [
+		{
+			"pass": true,
+			"test": "exact match"
+		},
+		{
+			"pass": true,
+			"test": "rotation 90"
+		},
+		{
+			"pass": true,
+			"test": "no fit"
+		},
+		{
+			"pass": true,
+			"test": "reflection rejected"
+		},
+		{
+			"pass": true,
+			"test": "first placement deterministic"
+		},
+		{
+			"pass": true,
+			"test": "LOAF rotation 0"
+		},
+		{
+			"pass": true,
+			"test": "LOAF rotation 90"
+		},
+		{
+			"pass": true,
+			"test": "LOAF rotation 180"
+		},
+		{
+			"pass": true,
+			"test": "LOAF rotation 270"
+		},
+		{
+			"pass": true,
+			"test": "LONG rotation 0"
+		},
+		{
+			"pass": true,
+			"test": "LONG rotation 90"
+		},
+		{
+			"pass": true,
+			"test": "LONG rotation 180"
+		},
+		{
+			"pass": true,
+			"test": "LONG rotation 270"
+		},
+		{
+			"pass": true,
+			"test": "SPLOOT rotation 0"
+		},
+		{
+			"pass": true,
+			"test": "SPLOOT rotation 90"
+		},
+		{
+			"pass": true,
+			"test": "SPLOOT rotation 180"
+		},
+		{
+			"pass": true,
+			"test": "SPLOOT rotation 270"
+		},
+		{
+			"pass": true,
+			"test": "CURL rotation 0"
+		},
+		{
+			"pass": true,
+			"test": "CURL rotation 90"
+		},
+		{
+			"pass": true,
+			"test": "CURL rotation 180"
+		},
+		{
+			"pass": true,
+			"test": "CURL rotation 270"
+		},
+		{
+			"pass": true,
+			"test": "remove edge"
+		},
+		{
+			"pass": true,
+			"test": "undo exact state"
+		},
+		{
+			"pass": true,
+			"test": "reject articulation"
+		},
+		{
+			"pass": true,
+			"test": "reject empty"
+		},
+		{
+			"pass": true,
+			"test": "restore always allowed"
+		},
+		{
+			"pass": true,
+			"test": "island is not testable"
+		},
+		{
+			"pass": true,
+			"test": "diagonal is disconnected"
+		},
+		{
+			"pass": true,
+			"test": "reset clears history"
+		},
+		{
+			"pass": true,
+			"test": "invalid index rejected"
+		},
+		{
+			"pass": true,
+			"test": "ten stages"
+		},
+		{
+			"pass": true,
+			"test": "001 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "001 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "001 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "001 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "001 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "002 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "002 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "002 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "002 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "002 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "002 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "003 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "003 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "003 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "003 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "003 independent fit CURL"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "003 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "004 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "004 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "004 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "004 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "004 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "004 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "005 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "005 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "005 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "005 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "005 independent fit CURL"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "005 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "006 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "006 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "006 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "006 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "006 independent fit CURL"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "006 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "007 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "007 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "007 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "007 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "007 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "007 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "008 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "008 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "008 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "008 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "008 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "008 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "008 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "009 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "009 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "009 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "009 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "009 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "009 independent fit CURL"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "009 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "010 unique ordered ID"
+		},
+		{
+			"pass": true,
+			"test": "010 cats exist"
+		},
+		{
+			"pass": true,
+			"test": "010 verified minimum"
+		},
+		{
+			"pass": true,
+			"test": "010 independent fit LOAF"
+		},
+		{
+			"pass": true,
+			"test": "010 independent fit LONG"
+		},
+		{
+			"pass": true,
+			"test": "010 independent fit SPLOOT"
+		},
+		{
+			"pass": true,
+			"test": "010 independent fit CURL"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 1"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 2"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 3"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 4"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 5"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 6"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 7"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 8"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 9"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 10"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 11"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 12"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 13"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 14"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 15"
+		},
+		{
+			"pass": true,
+			"test": "010 rank boundary 16"
+		},
+		{
+			"pass": true,
+			"test": "new save stage 001 only"
+		},
+		{
+			"pass": true,
+			"test": "locked stage cannot be selected"
+		},
+		{
+			"pass": true,
+			"test": "16 cells FIT does not clear"
+		},
+		{
+			"pass": true,
+			"test": "UI rejects disconnect"
+		},
+		{
+			"pass": true,
+			"test": "failed cat stops test and unlocks input"
+		},
+		{
+			"pass": true,
+			"test": "island restore does not bypass connectivity"
+		},
+		{
+			"pass": true,
+			"test": "cell signal changes board"
+		},
+		{
+			"pass": true,
+			"test": "undo button restores state"
+		},
+		{
+			"pass": true,
+			"test": "reset button restores initial state"
+		},
+		{
+			"pass": true,
+			"test": "SPACE tests even when a board cell has focus"
+		},
+		{
+			"pass": true,
+			"test": "keyboard TEST follows the normal FIT path"
+		},
+		{
+			"pass": true,
+			"test": "runtime GREAT rank"
+		},
+		{
+			"pass": true,
+			"test": "runtime CLEAR rank"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 001"
+		},
+		{
+			"pass": true,
+			"test": "stage 001 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 001 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 001 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 002"
+		},
+		{
+			"pass": true,
+			"test": "stage 002 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 002 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 002 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 003"
+		},
+		{
+			"pass": true,
+			"test": "stage 003 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 003 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 003 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 004"
+		},
+		{
+			"pass": true,
+			"test": "stage 004 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 004 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 004 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 005"
+		},
+		{
+			"pass": true,
+			"test": "stage 005 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 005 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 005 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 006"
+		},
+		{
+			"pass": true,
+			"test": "stage 006 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 006 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 006 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 007"
+		},
+		{
+			"pass": true,
+			"test": "stage 007 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 007 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 007 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 008"
+		},
+		{
+			"pass": true,
+			"test": "stage 008 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 008 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 008 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 009"
+		},
+		{
+			"pass": true,
+			"test": "stage 009 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 009 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 009 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "progress reaches 010"
+		},
+		{
+			"pass": true,
+			"test": "stage 010 editable optimal shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 010 locks input during test"
+		},
+		{
+			"pass": true,
+			"test": "busy edits cannot mutate shape"
+		},
+		{
+			"pass": true,
+			"test": "stage 010 PERFECT"
+		},
+		{
+			"pass": true,
+			"test": "TEST adds no undo state"
+		},
+		{
+			"pass": true,
+			"test": "all cats independently checked"
+		},
+		{
+			"pass": true,
+			"test": "progress saved"
+		},
+		{
+			"pass": true,
+			"test": "save reload restores 10 stages"
+		},
+		{
+			"pass": true,
+			"test": "worse replay preserves best"
+		},
+		{
+			"pass": true,
+			"test": "touch emulation toggles cardboard"
+		},
+		{
+			"pass": true,
+			"test": "motion preference persists"
+		},
+		{
+			"pass": true,
+			"test": "commercial music loaded and loops"
+		}
+	],
+	"failed": 0,
+	"passed": 342
+}

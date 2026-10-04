@@ -1,0 +1,72 @@
+[
+  {
+    "id": "001",
+    "minimum": 5,
+    "optimal_shapes": 24,
+    "example_mask": 103,
+    "matches": true
+  },
+  {
+    "id": "002",
+    "minimum": 6,
+    "optimal_shapes": 16,
+    "example_mask": 615,
+    "matches": true
+  },
+  {
+    "id": "003",
+    "minimum": 6,
+    "optimal_shapes": 12,
+    "example_mask": 119,
+    "matches": true
+  },
+  {
+    "id": "004",
+    "minimum": 6,
+    "optimal_shapes": 8,
+    "example_mask": 8743,
+    "matches": true
+  },
+  {
+    "id": "005",
+    "minimum": 6,
+    "optimal_shapes": 12,
+    "example_mask": 95,
+    "matches": true
+  },
+  {
+    "id": "006",
+    "minimum": 6,
+    "optimal_shapes": 32,
+    "example_mask": 807,
+    "matches": true
+  },
+  {
+    "id": "007",
+    "minimum": 7,
+    "optimal_shapes": 56,
+    "example_mask": 127,
+    "matches": true
+  },
+  {
+    "id": "008",
+    "minimum": 7,
+    "optimal_shapes": 16,
+    "example_mask": 8807,
+    "matches": true
+  },
+  {
+    "id": "009",
+    "minimum": 7,
+    "optimal_shapes": 32,
+    "example_mask": 1119,
+    "matches": true
+  },
+  {
+    "id": "010",
+    "minimum": 8,
+    "optimal_shapes": 136,
+    "example_mask": 383,
+    "matches": true
+  }
+]

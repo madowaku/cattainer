@@ -1,0 +1,12 @@
+[
+  {"id":"001", "cats":["LOAF"], "clear_cells":8, "great_cells":6, "perfect_cells":5},
+  {"id":"002", "cats":["LOAF","SPLOOT"], "clear_cells":9, "great_cells":7, "perfect_cells":6},
+  {"id":"003", "cats":["LOAF","CURL"], "clear_cells":9, "great_cells":7, "perfect_cells":6},
+  {"id":"004", "cats":["LONG","SPLOOT"], "clear_cells":9, "great_cells":7, "perfect_cells":6},
+  {"id":"005", "cats":["LONG","CURL"], "clear_cells":9, "great_cells":7, "perfect_cells":6},
+  {"id":"006", "cats":["SPLOOT","CURL"], "clear_cells":9, "great_cells":7, "perfect_cells":6},
+  {"id":"007", "cats":["LOAF","LONG"], "clear_cells":10, "great_cells":8, "perfect_cells":7},
+  {"id":"008", "cats":["LOAF","LONG","SPLOOT"], "clear_cells":10, "great_cells":8, "perfect_cells":7},
+  {"id":"009", "cats":["LONG","SPLOOT","CURL"], "clear_cells":10, "great_cells":8, "perfect_cells":7},
+  {"id":"010", "cats":["LOAF","LONG","SPLOOT","CURL"], "clear_cells":12, "great_cells":10, "perfect_cells":8}
+]
