@@ -54,6 +54,24 @@ func _run() -> void:
 	game.board_view.cells[0].pressed.emit()
 	game.reset_button.pressed.emit()
 	check("reset button restores initial state", game.board.mask == 65535 and game.board.history.is_empty())
+	# Space must activate the focused UI button instead of being stolen by global TEST.
+	game.board_view.cells[0].pressed.emit()
+	game.reset_button.grab_focus()
+	var focused_space: InputEventKey = InputEventKey.new()
+	focused_space.keycode = KEY_SPACE
+	focused_space.pressed = true
+	Input.parse_input_event(focused_space)
+	var focused_space_release: InputEventKey = focused_space.duplicate() as InputEventKey
+	focused_space_release.pressed = false
+	Input.parse_input_event(focused_space_release)
+	await process_frame
+	check("SPACE activates focused RESET instead of TEST", game.board.mask == 65535 and not game.busy and game.last_rank == "")
+	game.stage_button.grab_focus()
+	Input.parse_input_event(focused_space)
+	Input.parse_input_event(focused_space_release)
+	await process_frame
+	check("SPACE activates focused stage picker instead of TEST", game.overlay.visible and not game.busy)
+	game.overlay.hide()
 	game.board_view.cells[0].grab_focus()
 	var space: InputEventKey = InputEventKey.new()
 	space.keycode = KEY_SPACE

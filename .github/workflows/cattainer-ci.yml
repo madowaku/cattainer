@@ -1,0 +1,36 @@
+name: CATTAINER Godot regression
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'scenes/**'
+      - '.github/workflows/cattainer-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  godot-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: chickensoft-games/setup-godot@v2
+        with:
+          version: 4.7.2
+          use-dotnet: false
+      - name: Verify stage minima
+        run: python tools/verify_stages.py
+      - name: Import Godot assets
+        run: godot --headless --path . --editor --import --quit
+      - name: Load scenes and scripts
+        run: godot --headless --debug --ignore-error-breaks --path . --script tests/check_project.gd
+      - name: Gameplay and keyboard regression
+        run: godot --headless --debug --ignore-error-breaks --path . --script tests/run_tests.gd
