@@ -465,6 +465,11 @@ func _input(event: InputEvent) -> void:
 	if busy or overlay.visible:
 		return
 	if key.keycode == KEY_SPACE:
+		# Let focused UI buttons receive their normal Space activation.
+		# Board cells deliberately keep Space as the global TEST shortcut.
+		var focused: Control = get_viewport().gui_get_focus_owner()
+		if focused is BaseButton and not (focused is BoardCell):
+			return
 		run_test()
 	elif key.keycode == KEY_Z and key.ctrl_pressed:
 		undo()
